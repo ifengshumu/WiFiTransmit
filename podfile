@@ -1,0 +1,17 @@
+use_frameworks!
+platform :ios, '8.0'
+target 'WiFiTransmit' do
+    pod "CocoaHTTPServer"
+    
+    
+    # CocoaLumberjack报错
+    post_install do |installer|
+        installer.pods_project.targets.each do |target|
+            if target.name == "CocoaHTTPServer"
+                target.build_configurations.each do |config|
+                    config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)', 'DD_LEGACY_MACROS=1']
+                end
+            end
+        end
+    end
+end

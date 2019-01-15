@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00591A0D44E7A98FE9471BCB /* Pods_WiFiTransmit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3410BA88A59DF724E1E2D5F /* Pods_WiFiTransmit.framework */; };
+		1614177721CCB65A00BD22C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614177621CCB65A00BD22C8 /* AppDelegate.m */; };
+		1614177A21CCB65A00BD22C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614177921CCB65A00BD22C8 /* ViewController.m */; };
+		1614177D21CCB65A00BD22C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1614177B21CCB65A00BD22C8 /* Main.storyboard */; };
+		1614177F21CCB65C00BD22C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1614177E21CCB65C00BD22C8 /* Assets.xcassets */; };
+		1614178221CCB65C00BD22C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1614178021CCB65C00BD22C8 /* LaunchScreen.storyboard */; };
+		1614178521CCB65C00BD22C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614178421CCB65C00BD22C8 /* main.m */; };
+		1614178D21CCB88900BD22C8 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614178C21CCB88800BD22C8 /* MyHTTPConnection.m */; };
+		1614179021CCBAB500BD22C8 /* WiFiIPAdress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1614178F21CCBAB500BD22C8 /* WiFiIPAdress.m */; };
+		1614179C21CCCAE700BD22C8 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 1614179B21CCCAE700BD22C8 /* web */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0837DBFB15728EB3DB147783 /* Pods-WiFiTransmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiTransmit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiFiTransmit/Pods-WiFiTransmit.debug.xcconfig"; sourceTree = "<group>"; };
+		1614177221CCB65A00BD22C8 /* WiFiTransmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiTransmit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1614177521CCB65A00BD22C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1614177621CCB65A00BD22C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1614177821CCB65A00BD22C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1614177921CCB65A00BD22C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1614177C21CCB65A00BD22C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1614177E21CCB65C00BD22C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1614178121CCB65C00BD22C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1614178321CCB65C00BD22C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1614178421CCB65C00BD22C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1614178B21CCB88800BD22C8 /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = "<group>"; };
+		1614178C21CCB88800BD22C8 /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPConnection.m; sourceTree = "<group>"; };
+		1614178E21CCBAB500BD22C8 /* WiFiIPAdress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiIPAdress.h; sourceTree = "<group>"; };
+		1614178F21CCBAB500BD22C8 /* WiFiIPAdress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiIPAdress.m; sourceTree = "<group>"; };
+		1614179B21CCCAE700BD22C8 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+		88C7994BB3AAE1A025598D86 /* Pods-WiFiTransmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiTransmit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiFiTransmit/Pods-WiFiTransmit.release.xcconfig"; sourceTree = "<group>"; };
+		B3410BA88A59DF724E1E2D5F /* Pods_WiFiTransmit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFiTransmit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1614176F21CCB65A00BD22C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00591A0D44E7A98FE9471BCB /* Pods_WiFiTransmit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1614176921CCB65A00BD22C8 = {
+			isa = PBXGroup;
+			children = (
+				1614177421CCB65A00BD22C8 /* WiFiTransmit */,
+				1614179D21CCCCB900BD22C8 /* Resources */,
+				1614177321CCB65A00BD22C8 /* Products */,
+				F24BE522B679CF454C42FD9F /* Pods */,
+				5814547AD3A3787DE4184B61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1614177321CCB65A00BD22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1614177221CCB65A00BD22C8 /* WiFiTransmit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1614177421CCB65A00BD22C8 /* WiFiTransmit */ = {
+			isa = PBXGroup;
+			children = (
+				1614177521CCB65A00BD22C8 /* AppDelegate.h */,
+				1614177621CCB65A00BD22C8 /* AppDelegate.m */,
+				1614177821CCB65A00BD22C8 /* ViewController.h */,
+				1614177921CCB65A00BD22C8 /* ViewController.m */,
+				1614178B21CCB88800BD22C8 /* MyHTTPConnection.h */,
+				1614178C21CCB88800BD22C8 /* MyHTTPConnection.m */,
+				1614178E21CCBAB500BD22C8 /* WiFiIPAdress.h */,
+				1614178F21CCBAB500BD22C8 /* WiFiIPAdress.m */,
+				1614177B21CCB65A00BD22C8 /* Main.storyboard */,
+				1614177E21CCB65C00BD22C8 /* Assets.xcassets */,
+				1614178021CCB65C00BD22C8 /* LaunchScreen.storyboard */,
+				1614178321CCB65C00BD22C8 /* Info.plist */,
+				1614178421CCB65C00BD22C8 /* main.m */,
+			);
+			path = WiFiTransmit;
+			sourceTree = "<group>";
+		};
+		1614179D21CCCCB900BD22C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1614179B21CCCAE700BD22C8 /* web */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5814547AD3A3787DE4184B61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3410BA88A59DF724E1E2D5F /* Pods_WiFiTransmit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24BE522B679CF454C42FD9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0837DBFB15728EB3DB147783 /* Pods-WiFiTransmit.debug.xcconfig */,
+				88C7994BB3AAE1A025598D86 /* Pods-WiFiTransmit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1614177121CCB65A00BD22C8 /* WiFiTransmit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1614178821CCB65C00BD22C8 /* Build configuration list for PBXNativeTarget "WiFiTransmit" */;
+			buildPhases = (
+				C8B771393F453D1276DC0363 /* [CP] Check Pods Manifest.lock */,
+				1614176E21CCB65A00BD22C8 /* Sources */,
+				1614176F21CCB65A00BD22C8 /* Frameworks */,
+				1614177021CCB65A00BD22C8 /* Resources */,
+				ABD58FDD8C4A9FD935D537A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiTransmit;
+			productName = WiFiTransmit;
+			productReference = 1614177221CCB65A00BD22C8 /* WiFiTransmit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1614176A21CCB65A00BD22C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CoderApple;
+				TargetAttributes = {
+					1614177121CCB65A00BD22C8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1614176D21CCB65A00BD22C8 /* Build configuration list for PBXProject "WiFiTransmit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1614176921CCB65A00BD22C8;
+			productRefGroup = 1614177321CCB65A00BD22C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1614177121CCB65A00BD22C8 /* WiFiTransmit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1614177021CCB65A00BD22C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614178221CCB65C00BD22C8 /* LaunchScreen.storyboard in Resources */,
+				1614179C21CCCAE700BD22C8 /* web in Resources */,
+				1614177F21CCB65C00BD22C8 /* Assets.xcassets in Resources */,
+				1614177D21CCB65A00BD22C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABD58FDD8C4A9FD935D537A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WiFiTransmit/Pods-WiFiTransmit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaHTTPServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiFiTransmit/Pods-WiFiTransmit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B771393F453D1276DC0363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFiTransmit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1614176E21CCB65A00BD22C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614177A21CCB65A00BD22C8 /* ViewController.m in Sources */,
+				1614178521CCB65C00BD22C8 /* main.m in Sources */,
+				1614179021CCBAB500BD22C8 /* WiFiIPAdress.m in Sources */,
+				1614177721CCB65A00BD22C8 /* AppDelegate.m in Sources */,
+				1614178D21CCB88900BD22C8 /* MyHTTPConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1614177B21CCB65A00BD22C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1614177C21CCB65A00BD22C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1614178021CCB65C00BD22C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1614178121CCB65C00BD22C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1614178621CCB65C00BD22C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1614178721CCB65C00BD22C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1614178921CCB65C00BD22C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0837DBFB15728EB3DB147783 /* Pods-WiFiTransmit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = WiFiTransmit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WiFiTransmit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1614178A21CCB65C00BD22C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C7994BB3AAE1A025598D86 /* Pods-WiFiTransmit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = WiFiTransmit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WiFiTransmit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1614176D21CCB65A00BD22C8 /* Build configuration list for PBXProject "WiFiTransmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1614178621CCB65C00BD22C8 /* Debug */,
+				1614178721CCB65C00BD22C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1614178821CCB65C00BD22C8 /* Build configuration list for PBXNativeTarget "WiFiTransmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1614178921CCB65C00BD22C8 /* Debug */,
+				1614178A21CCB65C00BD22C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1614176A21CCB65A00BD22C8 /* Project object */;
+}
